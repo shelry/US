@@ -1,0 +1,107 @@
+h1 {
+  font-size: 3em;
+  margin: 0 0 20px;
+  color: #fff; }
+/*
+p {
+  font-size: 1.2em;
+  color: #fff; }
+  p.field {
+    line-height: 20px;
+    clear: right; }
+    p.field span {
+      display: inline-block;
+      margin-right: 10px; }
+    p.field .label {
+      opacity: .65; }
+    p.field .value {
+      font-weight: bold;
+      font-size: 18px;
+      float: right; }
+*/
+
+
+#roll {
+  background: #eaeaea;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto; }
+
+
+.step {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #fff;
+  opacity: 1;
+  transition: top .5s, opacity .5s; }
+    .main{
+    font-weight: 600;
+    z-index: 100;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 30vh;
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    color: rgba(255,255,255, 0.5);
+    line-height: 1;
+    letter-spacing: -0.03em;}
+     .sub {
+    font-weight: 600;
+    top: 10%;
+    position: absolute;
+    left: 5%;
+    font-size: 8vh;
+    width: 100%;
+    text-align:left;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1;
+    letter-spacing: -0.03em; }
+
+    .step h2{
+    font-size:30px; top:40%; left:5%; line-height: 1.5; position: absolute;opacity: 1;color:darksalmon; font-weight: bold; 
+    }
+    .step h3{
+         font-weight: 300; 
+    font-size:18px; top:55%; left:5%; line-height: 1.5; position: absolute;opacity: 1
+    }
+
+    .white{color:#fff;}
+/*-------------------------------------------------*/
+#s0 {width:100%; height:100%; overflow: hidden;}
+#s0 .videoOn{position: absolute; top:0; left:0;}
+#s0 .bg{position: absolute; width:100%; height:100%; top:0; left:0; background: rgba(30,20.15,0.5);}
+.video{opacity: 0.5; position: absolute; top:0; left:0;}
+/*-------------------------------------------------*/
+#s1{height:100%; width:100%; overflow: hidden;}
+#s1{background:black url(../images/sec1_1.png) no-repeat;}
+#s1 > video{opacity: 0.1;}
+#s1 .videoOn{position: absolute; top:0; left:0; opacity: 0.5;}
+#s1 .con1{z-index: 1000}
+/*-------------------------------------------------*/
+#s2{height:100%; width:100%; overflow: hidden;}
+#s2 .left{position: absolute; bottom:-50px; left:40%; transform: rotate(38deg)}
+#s2 .center{position: absolute; bottom:20px;left:50%;}
+#s2 .right{position: absolute; bottom:150px; right:20%;}
+#s2 .con2 .sdesc{color:rgba(64,64,64,0.5); top:50%; font-size:18px; }
+/*-------------------------------------------------*/
+#s3 .width{width:150%;}
+#s3 .earPhone{position: absolute; left:43%;top:0; width:145px;}
+#s3 span,#s4 span{position: absolute; width:35%;  top:45%;font-size:18px; right:5%; text-align: right; color:rgba(64,64,64,0.5);line-height: 1.5;}
+.s3s4{position: absolute; top:30%; right:5%; text-align: right; color:darksalmon; font-weight: bold;}
+/*-------------------------------------------------*/
+#s5 .videoOn{position: absolute; top:0; left:-50px; width:65%; opacity: 0.8 ;}
+#s5{width:100%; height:100%; overflow: hidden;}
+#s5 .s5{position: absolute; left:0; top:48%;width:100%; text-align: center; color: darksalmon; }
+#s5 span{position: absolute; color:rgba(64,64,64,0.5);top:55%;left:0; width:100%; text-align: center;font-size:18px;}
+/*-------------------------------------------------*/
+
+#s6 .dimension{position: absolute; top:35%; width:100%;}
+#s6 .dimension ul{width:80%; margin: 0 auto;}
+#s6 .dimension ul li{width:25%; float: left;}
+#s6 .dimension ul li .dtit{color:darksalmon; font-size:20px; padding:10px 0;}
+#s6 .dimension ul li .ddesc{opacity: 0.5; padding:5px 2px;font-size:18px;}
