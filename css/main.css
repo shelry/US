@@ -1,26 +1,3 @@
-h1 {
-  font-size: 3em;
-  margin: 0 0 20px;
-  color: #fff; }
-/*
-p {
-  font-size: 1.2em;
-  color: #fff; }
-  p.field {
-    line-height: 20px;
-    clear: right; }
-    p.field span {
-      display: inline-block;
-      margin-right: 10px; }
-    p.field .label {
-      opacity: .65; }
-    p.field .value {
-      font-weight: bold;
-      font-size: 18px;
-      float: right; }
-*/
-
-
 #roll {
   background: #eaeaea;
   position: absolute;
@@ -37,40 +14,40 @@ p {
   color: #fff;
   opacity: 1;
   transition: top .5s, opacity .5s; }
-    .main{
-    font-weight: 600;
-    z-index: 100;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    font-size: 30vh;
-    width: 100%;
-    text-align: right;
-    position: absolute;
-    color: rgba(255,255,255, 0.5);
-    line-height: 1;
-    letter-spacing: -0.03em;}
-     .sub {
-    font-weight: 600;
-    top: 10%;
-    position: absolute;
-    left: 5%;
-    font-size: 8vh;
-    width: 100%;
-    text-align:left;
-    color: rgba(0, 0, 0, 0.5);
-    line-height: 1;
-    letter-spacing: -0.03em; }
+.main{
+font-weight: 600;
+z-index: 100;
+position: absolute;
+top: 30px;
+right: 30px;
+font-size: 30vh;
+width: 100%;
+text-align: right;
+position: absolute;
+color: rgba(255,255,255, 0.5);
+line-height: 1;
+letter-spacing: -0.03em;}
+ .sub {
+font-weight: 600;
+top: 10%;
+position: absolute;
+left: 5%;
+font-size: 8vh;
+width: 100%;
+text-align:left;
+color: rgba(0, 0, 0, 0.5);
+line-height: 1;
+letter-spacing: -0.03em; }
 
-    .step .ssdesc{
-    font-size:30px; top:40%; left:5%; line-height: 1.5; position: absolute;opacity: 1;color:darksalmon; font-weight: bold; 
-    }
-    .step .sdesc{
-         font-weight: 300; 
-    font-size:18px; top:55%; left:5%; line-height: 1.5; position: absolute;opacity: 1
-    }
+.step .ssdesc{
+font-size:30px; top:40%; left:5%; line-height: 1.5; position: absolute;opacity: 1;color:darksalmon; font-weight: bold; 
+}
+.step .sdesc{
+     font-weight: 300; 
+font-size:18px; top:55%; left:5%; line-height: 1.5; position: absolute;opacity: 1
+}
 
-    .white{color:#fff;}
+.white{color:#fff;}
 /*-------------------------------------------------*/
 #s0 {width:100%; height:100%; overflow: hidden;}
 #s0 .videoOn{position: absolute; top:0; left:0;}
