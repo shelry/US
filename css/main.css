@@ -62,10 +62,10 @@ p {
     line-height: 1;
     letter-spacing: -0.03em; }
 
-    .step h2{
+    .step .ssdesc{
     font-size:30px; top:40%; left:5%; line-height: 1.5; position: absolute;opacity: 1;color:darksalmon; font-weight: bold; 
     }
-    .step h3{
+    .step .sdesc{
          font-weight: 300; 
     font-size:18px; top:55%; left:5%; line-height: 1.5; position: absolute;opacity: 1
     }
@@ -91,12 +91,15 @@ p {
 /*-------------------------------------------------*/
 #s3 .width{width:150%;}
 #s3 .earPhone{position: absolute; left:43%;top:0; width:145px;}
-#s3 span,#s4 span{position: absolute; width:35%;  top:45%;font-size:18px; right:5%; text-align: right; color:rgba(64,64,64,0.5);line-height: 1.5;}
-.s3s4{position: absolute; top:30%; right:5%; text-align: right; color:darksalmon; font-weight: bold;}
+#s3 span, #s4 span{position: absolute; width:35%;  top:45%;font-size:18px; right:5%; text-align: right; color:rgba(64,64,64,0.5);line-height: 1.5;}
+.s3s4{position: absolute; top:30%; right:5%; text-align: right; color:darksalmon; font-weight: bold; font-size:30px;}
+
+/*-------------------------------------------------*/
+
 /*-------------------------------------------------*/
 #s5 .videoOn{position: absolute; top:0; left:-50px; width:65%; opacity: 0.8 ;}
 #s5{width:100%; height:100%; overflow: hidden;}
-#s5 .s5{position: absolute; left:0; top:48%;width:100%; text-align: center; color: darksalmon; }
+#s5 .s5{position: absolute; left:0; top:48%;width:100%; text-align: center; color: darksalmon; font-size:30px; font-weight:bold;}
 #s5 span{position: absolute; color:rgba(64,64,64,0.5);top:55%;left:0; width:100%; text-align: center;font-size:18px;}
 /*-------------------------------------------------*/
 
