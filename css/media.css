@@ -1,0 +1,7 @@
+@media (max-width: 1024px) {
+/*    index    */
+#s0 .videoOn{left:50%; transform:translateX(-50%;)}
+#s0 .bg{left:50%; transform:translateX(-50%;)}
+.video{left:50%; transform:translateX(-50%;)}
+    
+}
