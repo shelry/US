@@ -12,20 +12,19 @@
 .step {
   font-family: 'Noto Sans KR', sans-serif;
   color: #fff;
-  opacity: 1;
+  line-height: 1.5;
   transition: top .5s, opacity .5s; }
+
 .main{
-font-weight: 600;
+font-weight: 700;
 z-index: 100;
 position: absolute;
 top: 30px;
 right: 30px;
-font-size: 30vh;
+font-size:30vh;
 width: 100%;
-text-align: right;
-position: absolute;
+text-align: center;
 color: rgba(255,255,255, 0.5);
-line-height: 1;
 letter-spacing: -0.03em;}
  .sub {
 font-weight: 600;
@@ -36,16 +35,12 @@ font-size: 8vh;
 width: 100%;
 text-align:left;
 color: rgba(0, 0, 0, 0.5);
-line-height: 1;
-letter-spacing: -0.03em; }
+letter-spacing: -0.03em; 
+z-index: 999;}
 
-.step .ssdesc{
-font-size:30px; top:40%; left:5%; line-height: 1.5; position: absolute;opacity: 1;color:darksalmon; font-weight: bold; 
-}
-.step .sdesc{
-     font-weight: 300; 
-font-size:18px; top:55%; left:5%; line-height: 1.5; position: absolute;opacity: 1
-}
+.desc_wrap{ width:80%; position:absolute; top:30%; left:5%; z-index: 999;}
+.desc_wrap .ssdesc{font-size:32px; color:#E16810; font-weight:700; width:40%;}
+.desc_wrap .sdesc{margin-top:24px; font-weight:400; width:60%; color:#101010;}
 
 .white{color:#fff;}
 /*-------------------------------------------------*/
@@ -64,24 +59,20 @@ font-size:18px; top:55%; left:5%; line-height: 1.5; position: absolute;opacity: 
 #s2 .left{position: absolute; bottom:-50px; left:40%; transform: rotate(38deg)}
 #s2 .center{position: absolute; bottom:20px;left:50%;}
 #s2 .right{position: absolute; bottom:150px; right:20%;}
-#s2 .con2 .sdesc{color:rgba(64,64,64,0.5); top:50%; font-size:18px; }
 /*-------------------------------------------------*/
 #s3 .width{width:150%;}
 #s3 .earPhone{position: absolute; left:43%;top:0; width:145px;}
-#s3 span, #s4 span{position: absolute; width:35%;  top:45%;font-size:18px; right:5%; text-align: right; color:rgba(64,64,64,0.5);line-height: 1.5;}
-.s3s4{position: absolute; top:30%; right:5%; text-align: right; color:darksalmon; font-weight: bold; font-size:30px;}
-
 /*-------------------------------------------------*/
 
 /*-------------------------------------------------*/
 #s5 .videoOn{position: absolute; top:0; left:-50px; width:65%; opacity: 0.8 ;}
 #s5{width:100%; height:100%; overflow: hidden;}
-#s5 .s5{position: absolute; left:0; top:48%;width:100%; text-align: center; color: darksalmon; font-size:30px; font-weight:bold;}
+#s5 .s5{position: absolute; left:0; top:48%;width:100%; text-align: center; color: #E16810; font-size:30px; font-weight:bold;}
 #s5 span{position: absolute; color:rgba(64,64,64,0.5);top:55%;left:0; width:100%; text-align: center;font-size:18px;}
 /*-------------------------------------------------*/
-
+#s6{background:url(/images/spec1.jpg)}
 #s6 .dimension{position: absolute; top:35%; width:100%;}
 #s6 .dimension ul{width:80%; margin: 0 auto;}
 #s6 .dimension ul li{width:25%; float: left;}
-#s6 .dimension ul li .dtit{color:darksalmon; font-size:20px; padding:10px 0;}
-#s6 .dimension ul li .ddesc{opacity: 0.5; padding:5px 2px;font-size:18px;}
+#s6 .dimension ul li .dtit{color:#E16810; font-size:24px; padding:8px 0; font-weight:700;}
+#s6 .dimension ul li .ddesc{opacity: 0.5; font-size:18px;}

@@ -1,7 +1,23 @@
 @media (max-width: 1024px) {
+#fix .top, #fix .bottom{color:#fff;}
 /*    index    */
-#s0 .videoOn{left:50%; transform:translateX(-50%;)}
-#s0 .bg{left:50%; transform:translateX(-50%;)}
-.video{left:50%; transform:translateX(-50%;)}
-    
+#s0 .videoOn{left:50%; transform:translateX(-50%)}
+#s0 .bg{left:50%; transform:translateX(-50%)}
+.video, video{left:50%; transform:translateX(-50%)}
+
+/*  subscription  */
+.desc_wrap .ssdesc{font-size:24px;width:100%;}
+.desc_wrap .sdesc{margin-top:16px;width:100%;}
+#s2 .left{opacity:0.2}
+#s2 .center{opacity:0.2}
+#s2 .right{opacity:0.2}
+#s3 span, #s4 span{width:80%;  top:45%; font-size:16px; left:5%; text-align: left;}
+#s3{background:#ebebeb;}
+#s3 .width{position:absolute; top:40%; left:80%; width:200%;}
+#s5 .s5{left:5%; width:80%; color: #E16810; font-size:24px; z-index: 999;}
+#s6 video{width:100%;}
+    #s6 .dimension ul{width:90%}
+#s6 .dimension ul li{width:100%; line-height:1; margin-bottom:16px;}
+#s6 .dimension ul li .dtit{font-size:18px;}
+#s6 .dimension ul li .ddesc{opacity: 0.5; padding:0; font-size:16px;}
 }
